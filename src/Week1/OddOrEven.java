@@ -1,6 +1,6 @@
 package Week1;
 
-public class OddorEven {
+public class OddOrEven {
     //Test
 }
 /*
