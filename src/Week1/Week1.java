@@ -7,27 +7,25 @@ public class Week1 {
         System.out.println("Week 1 Odd or Even Project Test");
 
         Scanner scanner = new Scanner(System.in);
-        int number = 0;
-        boolean validInput = false;
+        int Number = 0;
+        boolean ValidInput = false;
 
-        System.out.print("Enter a number: ");
+        while (!ValidInput) {
 
-        while (!validInput) {
-
-            System.out.print("Enter a number: ");
+            System.out.print("Enter a Number: ");
             if (scanner.hasNextInt()) {
-                number = scanner.nextInt();
-                validInput = true;
+                Number = scanner.nextInt();
+                ValidInput = true;
             } else {
-                System.out.println("Invalid input. Please enter a valid number.");
+                System.out.println("Invalid input. Please enter a valid Number.");
                 scanner.next();
             }
         }
 
-        if (number % 2 == 0) {
-            System.out.println(number + " is even.");
+        if (Number % 2 == 0) {
+            System.out.println(Number + " is even.");
         } else {
-            System.out.println(number + " is odd.");
+            System.out.println(Number + " is odd.");
         }
 
         scanner.close();
