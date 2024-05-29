@@ -1,4 +1,4 @@
-package fs_week1;
+package s_farruh.week1;
 
 public class EvenAndOdd {
     public static String identify(int number) {
