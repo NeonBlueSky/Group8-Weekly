@@ -1,9 +1,14 @@
 package csWeeklyTasks.week1;
 
+import java.util.Scanner;
+
 public class Week1Methods {
     public static void main(String[] args) {
-        int num1 = 15;
-        int num2 = 3;
+
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter two numbers");
+        int num1 = in.nextInt();
+        int num2 = in.nextInt();
 
         System.out.println(EvenOdd(num1));
         System.out.println(DivideWithoutOperator(num1, num2));
