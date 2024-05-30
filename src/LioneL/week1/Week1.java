@@ -1,25 +1,23 @@
 package LioneL.week1;
 
+import static LioneL.week1.Week1.OddOrEven.isOdd;
+
 public class Week1 {
     public static void main(String[] args) {
-        isOdd(100);
-        isEven(100);
+        System.out.println("Week 1");
+        System.out.println("Task 1 : Create a branch");
+        System.out.println("Task 2 : Write a code that separates odd numbers from even numbers.");
+        System.out.println(isOdd(5));
+        System.out.println(isOdd(6));
+
     }
-    public static void isOdd(int number){
-        if (number %2 == 1){
-            System.out.println("true");
-        }else {
-            System.out.println("false");
+    public class OddOrEven{
+        public static boolean isOdd(int n){
+            if (n % 2 == 1){
+                return true;
+            }else {
+                return false;
+            }
         }
     }
-
-    public static void isEven(int number){
-        if (number % 2 == 0){
-            System.out.println("true");
-        }else {
-            System.out.println("false");
-        }
-    }
-
 }
-
