@@ -1,4 +1,4 @@
-package Zac_week1;
+package Zac;
 
 public class DivisionWithoutOperator {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Zac_week1;
+package Zac;
 
 import java.util.Scanner;
 
