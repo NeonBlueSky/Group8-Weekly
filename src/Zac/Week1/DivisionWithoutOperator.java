@@ -1,4 +1,4 @@
-package Zac;
+package Zac.Week1;
 
 public class DivisionWithoutOperator {
     public static void main(String[] args) {
