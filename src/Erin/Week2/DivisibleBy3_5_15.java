@@ -6,12 +6,14 @@ public class DivisibleBy3_5_15 {
 
 
             for (int i = 1; i <= 100; i++) {
-                if (i % 15 == 0) {
-                    System.out.println(i + " DivisibleBy15");
+                if (i % 15 == 0 && i % 5 == 0 && i % 3 == 0) {
+                    System.out.println(i + " DivisibleBy15,3,5");
                 } else if (i % 3 == 0) {
                     System.out.println(i + " DivisibleBy3");
                 } else if (i % 5 == 0) {
                     System.out.println(i + " DivisibleBy5");
+                }else if(i %15 == 0){
+                    System.out.println(i + " DivisibleBy15");
                 }
             }
 
